@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+[class*="col"]
+
+.col_1-9{
+    width: calc(100% / 9);
+}
+.col_2-9{
+    width: calc(100% / 9);
+}
+.col_3-9{
+    width: calc(100% / 9);
+}
+.col_4-9{
+    width: calc(100% / 9);
+}
+.col_5-9{
+    width: calc(100% / 9);
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,9 @@
+header:
+2 div 
+due ul > li > a > img
+dai line height al tag a delle liste 
+li e a display inline block
+
+main:
+dai margin top (della dimensione dell'header) alla sezione a causa della nav bar fixed
+per far slittare il contenuto in basso. position relative oppure transform: translatey 50%
