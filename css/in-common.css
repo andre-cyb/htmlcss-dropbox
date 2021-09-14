@@ -25,7 +25,7 @@ small{
 }
 
 
-[class*="col"]{
+[class*="col_"]{
     float: left;
 }
 
