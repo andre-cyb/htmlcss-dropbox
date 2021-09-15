@@ -291,3 +291,73 @@ header ul li a{
     margin: 0px 20px;
     
 }
+.teams{
+    width: 100%;
+/*     background-color: #BBD5E9;
+ */    
+}
+.teams-section{
+    width: 100%;
+}
+
+.teams-section > div::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.teams-section > div{
+    float: left;
+      
+}
+.teams-section > div .square{
+    float: left;
+    width: 50%;
+    height: calc(30vw / 2 - 58px);
+    
+    padding: 15px;
+    position: relative;
+}
+.teams-section > div:nth-child(odd){
+    width: 25%;
+}
+.teams-section > div:nth-child(2){
+    width: 50%;
+}
+
+
+
+
+.centro{
+    padding: 40px;   
+}
+.centro img{
+    width: 150px;
+}
+.centro p{
+    padding: 60px 0px;
+    padding-right: 60px;
+}
+.sinistra .square img, .destra .square img{
+    max-width: 80%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+
+.free-trial-section{
+    padding: 100px 0px;
+}
+.free-trial-section h2{
+    padding-right: 30%;
+}
+
+.full-width-back{
+    width: 100%;
+    background-color: #BBD5E9;
+}
