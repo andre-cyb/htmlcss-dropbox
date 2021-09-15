@@ -47,6 +47,11 @@ small{
 .col_6-9{
     width: calc(100% / 9 * 6);
 }
+.col_full-width{
+    width: calc(100% - 40px);
+    
+    
+}
 .clearfix{
     content: "";
     display: table;
