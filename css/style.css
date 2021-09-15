@@ -107,6 +107,8 @@ header ul li a{
     max-width: 1200px;
     width: 100%;
     margin: auto;
+    /* border-left: 1px solid grey;
+    border-right: 1px solid grey; */
 }
 .small-container .invoice-option{
     padding: 50px 0px 30px 0px;
@@ -132,16 +134,30 @@ header ul li a{
 .container-colonne{
     list-style-type: none;
     margin: 0px -20px;
+    
 }
 
 .container-colonne ul{
     list-style-type: none;
 }
+
+
+
+
+
 .contenuto-colonne{
+    /* padding: 0px 20px; */
+    margin: 0px 20px;
+    
+}
+.plan-section .contenuto-colonne{
     padding: 0px 20px;
     margin: 0px 20px;
     border: 1px solid lightslategray;
 }
+
+
+
 
 .plan-type{
     margin:0px -20px ;
@@ -223,4 +239,55 @@ header ul li a{
 .col_full-width .col_6-9{
     padding-bottom: 20px;
 }
+.col_5-9 img{
+    width: 100%;
+    padding: 0px 10px;
+}
 
+
+.find-a-partner-section{
+    padding:50px 0px
+}
+.find-a-partner-column-content{
+    padding: 20px 10px 20px 20px;
+}
+
+.col_4-9 .find-a-partner-column-content p{
+    padding: 25px 0px;
+    padding-right: 80px;
+    line-height: 28px;
+}
+.find-a-partner-column-content h3{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.find-a-partner-column-content button{
+    padding: 5px 20px;
+    background-color: white;
+    text-decoration: none;
+}
+.find-a-partner-column-content a{
+    text-decoration: none;
+    color: black;
+    
+}
+.dropbox-business-service{
+    padding-bottom: 40px;
+}
+.dropbox-business-service h2{
+    padding: 40px 0px;
+}
+.column-container-dropbusiness img{
+    width: 100%;
+}
+.column-container-dropbusiness p{
+    padding-right: 40px;
+}
+.column-container-dropbusiness p{
+    padding-right: 50px;
+}
+.column-container-dropbusiness{
+    padding: 0px 20px;
+    margin: 0px 20px;
+    
+}
