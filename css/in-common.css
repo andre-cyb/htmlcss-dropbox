@@ -48,9 +48,11 @@ small{
     width: calc(100% / 9 * 6);
 }
 .col_full-width{
-    width: calc(100% - 40px);
-    
-    
+    width: calc(100% - 40px);   
+}
+.col_footer_2-10{
+    padding: 60px 0px;
+width: calc(100% / 10 * 2);
 }
 .clearfix{
     content: "";

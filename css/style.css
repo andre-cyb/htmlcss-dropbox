@@ -272,7 +272,7 @@ header ul li a{
     
 }
 .dropbox-business-service{
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 .dropbox-business-service h2{
     padding: 40px 0px;
@@ -292,9 +292,18 @@ header ul li a{
     
 }
 .teams{
-    width: 100%;
-/*     background-color: #BBD5E9;
- */    
+    width: 100%;    
+}
+.users-team-dropboxb-b{
+    padding-bottom: 40px;
+    margin-left: 60px;
+}
+.users-team-dropboxb-b h2{
+    padding-right: 50%;
+    padding-bottom: 20px;
+}
+.users-team-dropboxb-b small a{
+    color: #399ffd;
 }
 .teams-section{
     width: 100%;
@@ -354,10 +363,86 @@ header ul li a{
     padding: 100px 0px;
 }
 .free-trial-section h2{
-    padding-right: 30%;
+    padding-right: 20%;
+    padding-top: 0px;
+    color: #61082B;
+}
+.free-trial-section .col_3-9 .free-trial-button{
+    background-color: white;
+    color: black;
+    padding:5px 70px;
+    text-decoration: none;
+    
+}
+.free-trial-section .col_3-9{
+    padding-top: 20px;
 }
 
 .full-width-back{
     width: 100%;
     background-color: #BBD5E9;
+}
+.FAQ-section{
+    padding: 100px 0px;
+    position: relative;
+}
+.FAQ-section h3{
+    padding: 30px 0px;
+}
+.FAQ-section div h4{
+    display: inline-block;
+    padding: 20px 0px;
+    border-top: 1px solid grey;
+    width: 90%;
+}
+.FAQ-section div p{
+    display: none;
+}
+.FAQ-section div:last-child{
+    border-bottom: 1px solid grey;
+}
+.FAQ-section div span{
+    display: inline-block;
+    width: 10%;
+}
+
+
+.footer-container{
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+}
+.footer{
+    background-color: black;
+    
+}
+.column-container-footer{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.col_footer_2-10 li:first-child{
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.col_footer_2-10 ul li h4{
+    font-size: 20px;
+}
+.col_footer_2-10 ul{
+    list-style-type: none;
+}
+.col_footer_2-10 ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.col_footer_2-10 ul li a:hover{
+    text-decoration: underline;
+    
+}
+footer .language{
+    color: white;
+    padding: 50px 0px;
+    border-top: 1px solid white;
+    width: 10%;
 }
