@@ -1,15 +1,16 @@
+
+/******** css header *********/
+
 header{
     background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;  
     z-index: 99;
 }
-
 .div-sx, .div-dx{
     
     display: inline-block;
     vertical-align: middle;
-
 }
 .div-logo{
     width: 10%;
@@ -18,7 +19,6 @@ header{
     min-height: 60px;
     text-align: center;
 }
-
 .div-sx{
     width: 60%;
     float: left;
@@ -56,28 +56,11 @@ header ul li a{
 .inizia{
     margin: 0px 20px 0px 10px;
 }
+/******** css header *********/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/******** css main hero *********/
 .hero{
     background-color: #B4D0E7;       
 }
@@ -86,20 +69,16 @@ header ul li a{
     width: 100%;
     margin: auto;
 }
-
-
 .col_3-9 p{
     padding: 30px 0px;
 }
 .col_3-9 .p-hero{
     padding-right: 21%;
 }
-
 .col_6-9 img{
     width: 100%;
     padding: 30px
 }
-
 .col_3-9 div:nth-child(3){
     margin-top: 15px;
 }
@@ -129,15 +108,14 @@ header ul li a{
         
     }
 }
-
 .medium-container{
     transform: translateY(15%);
 }
+/******** css main hero *********/
 
 
 
-
-
+/******** css main *********/
 .small-container{
     max-width: 1200px;
     width: 100%;
@@ -149,7 +127,6 @@ header ul li a{
 .small-container h2{
     padding-top: 30px;
 }
-
 .main-section{
     padding-top: 100px;
 }
@@ -159,35 +136,22 @@ header ul li a{
 .radio-input{
     margin-right: 10px;
 }
-
-
+/*css colonne abbonamenti*/
 .container-colonne{
     list-style-type: none;
-    margin: 0px -20px;
-    
+    margin: 0px -20px;   
 }
-
 .container-colonne ul{
     list-style-type: none;
 }
-
-
-
-
-
 .contenuto-colonne{
-    margin: 0px 20px;
-    
+    margin: 0px 20px;  
 }
 .plan-section .contenuto-colonne{
     padding: 0px 20px;
     margin: 0px 20px;
     border: 1px solid #dadada;
 }
-
-
-
-
 .plan-type{
     margin:0px -20px ;
     vertical-align: middle;
@@ -195,7 +159,6 @@ header ul li a{
     padding: 10px 0px;
     border-bottom: 1px solid #dadada;
 }
-
 .contenuto-colonne h3{
     padding-top: 30px;
     padding-bottom: 10px;
@@ -206,7 +169,6 @@ header ul li a{
 .grey-text{
     color: rgb(139, 139, 139);
 }
-
 .plan-details{
     padding: 30px 0px;
 }
@@ -217,7 +179,6 @@ header ul li a{
     margin-left: -20px;
     padding-right: 5px;
 }
-
 .buy-now{
     padding: 40px 0px;
 }
@@ -231,7 +192,6 @@ header ul li a{
 }
 .list2{
     padding: 30px 0px;
-
 }
 .list2 span i{
     color:#399ffd;
@@ -243,17 +203,14 @@ header ul li a{
 .list2 li{
     padding: 10px;
     padding-left: 20px;
- 
 }
 .list2 li:first-child{
     padding-left: 0px;
 }
-
+/*css colonne team enterprise*/
 .black-text{
-    color: black;
-    
+    color: black; 
 }
-
 .contact{
     text-align: center;
 }
@@ -263,8 +220,7 @@ header ul li a{
     text-decoration: none;
 }
 .col_full-width .contenuto-colonne{
-    width: 100%;
-    
+    width: 100%;  
 }
 .col_full-width{
     padding: 60px 0px;
@@ -272,19 +228,20 @@ header ul li a{
 .col_full-width .col_6-9{
     padding-bottom: 20px;
 }
+/*fine css colonne team enterprise*/
+/*fine css colonne abbonamenti*/
+
+/*css partner Dropbox*/
 .col_5-9 img{
     width: 100%;
     padding: 0px 10px;
 }
-
-
 .find-a-partner-section{
     padding:50px 0px
 }
 .find-a-partner-column-content{
     padding: 20px 10px 20px 20px;
 }
-
 .col_4-9 .find-a-partner-column-content p{
     padding: 25px 0px;
     padding-right: 80px;
@@ -307,9 +264,11 @@ header ul li a{
 }
 .find-a-partner-column-content a{
     text-decoration: none;
-    color: black;
-    
+    color: black;   
 }
+/*fine css partner Dropbox*/
+
+/*css Dropbox business*/
 .dropbox-business-service{
     padding-bottom: 100px;
 }
@@ -333,6 +292,9 @@ header ul li a{
 .dropbox-business-service .contenuto-colonne .col_3-9{
     padding-top: 50px;
 }
+/*fine css Dropbox business*/
+
+/*css membri team*/
 .teams{
     width: 100%;    
 }
@@ -374,10 +336,6 @@ header ul li a{
 .teams-section > div:nth-child(2){
     width: 50%;
 }
-
-
-
-
 .centro{
     padding: 40px;   
 }
@@ -394,13 +352,11 @@ header ul li a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);   
 }
+/*fine css membri team*/
 
-
-
-
+/*css free trial dropbox business*/
 .free-trial-section{
     padding: 150px 0px;
 }
@@ -418,16 +374,17 @@ header ul li a{
 }
 .free-trial-section .col_3-9 .free-trial-button:hover{
     box-shadow: 1px 5px 10px rgba(39, 39, 39, 0.37);
-
 }
 .free-trial-section .col_3-9{
     padding-top: 20px;
 }
-
 .full-width-back{
     width: 100%;
     background-color: #BBD5E9;
 }
+/*fine css free trial dropbox business*/
+
+/*css FAQ*/
 .FAQ-section{
     padding: 100px 0px;
     position: relative;
@@ -471,21 +428,20 @@ header ul li a{
     overflow: auto;
 } 
 .accordion-container:focus h4 span{
-    transform: rotate(0deg);
-    
+    transform: rotate(0deg);  
 } 
+/*fine css FAQ*/
+/*fine css main*/
 
 
-
-
+/*css footer*/
 .footer-container{
     max-width: 1500px;
     width: 100%;
     margin: auto;
 }
 .footer{
-    background-color: black;
-    
+    background-color: black;   
 }
 .column-container-footer{
     width: 100%;
@@ -508,8 +464,7 @@ header ul li a{
     line-height: 30px;
 }
 .col_footer_2-10 ul li a:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }
 footer .language{
     color: white;
@@ -517,6 +472,7 @@ footer .language{
     border-top: 1px solid white;
     width: 10%;
 }
+/*fine css footer*/
 
 
 
