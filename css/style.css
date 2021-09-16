@@ -33,7 +33,6 @@ header ul{
 }
 header ul li{
     display: inline-block;
-    /* padding: 5px 10px; */
     padding-left: 10px;
 }
 header ul li a{
@@ -43,10 +42,16 @@ header ul li a{
     color: black;
 }
 .button{
-    padding: 5px 20px;
+    padding: 10px 30px;
     color: white;
     background-color: #0061FF;
     text-decoration: none;
+    margin-top: 30px;
+    transition: all .2s linear;
+}
+.button:hover{
+    box-shadow: 1px 5px 10px rgba(39, 39, 39, 0.37);
+    background-color: #2b7cff;
 }
 .inizia{
     margin: 0px 20px 0px 10px;
@@ -78,7 +83,6 @@ header ul li a{
 }
 .medium-container{
     max-width: 1500px;
-    /* max-width: 1370px; */
     width: 100%;
     margin: auto;
 }
@@ -86,15 +90,46 @@ header ul li a{
 
 .col_3-9 p{
     padding: 30px 0px;
-
 }
+.col_3-9 .p-hero{
+    padding-right: 21%;
+}
+
 .col_6-9 img{
     width: 100%;
     padding: 30px
 }
-.col_3-9 div:last-child{
+
+.col_3-9 div:nth-child(3){
     margin-top: 15px;
 }
+.container-animation{
+    position: relative;
+}
+.fa-arrow-down{
+    font-size: 40px;
+    padding-top: 30px;
+    position: absolute;
+    animation: arrow 5s ease-in-out infinite;
+}
+@keyframes arrow {
+    0%{
+        top: 30px;
+        opacity: 0;
+    }
+    
+    50%{
+        top: 90px;
+        opacity: 1;
+    }
+    
+    100%{
+        top: 30px;
+        opacity: 0;
+        
+    }
+}
+
 .medium-container{
     transform: translateY(15%);
 }
@@ -107,8 +142,6 @@ header ul li a{
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    /* border-left: 1px solid grey;
-    border-right: 1px solid grey; */
 }
 .small-container .invoice-option{
     padding: 50px 0px 30px 0px;
@@ -121,16 +154,13 @@ header ul li a{
     padding-top: 100px;
 }
 .invoice-option span{
-    padding-right:10px;
+    padding-right: 30px;
 }
 .radio-input{
-    padding-right: 5px;
+    margin-right: 10px;
 }
 
-/* temporaneo */
-/* .container-colonne .col_3-9{
-   border: 1px solid red; 
-} */
+
 .container-colonne{
     list-style-type: none;
     margin: 0px -20px;
@@ -146,14 +176,13 @@ header ul li a{
 
 
 .contenuto-colonne{
-    /* padding: 0px 20px; */
     margin: 0px 20px;
     
 }
 .plan-section .contenuto-colonne{
     padding: 0px 20px;
     margin: 0px 20px;
-    border: 1px solid lightslategray;
+    border: 1px solid #dadada;
 }
 
 
@@ -164,7 +193,7 @@ header ul li a{
     vertical-align: middle;
     text-align: center;
     padding: 10px 0px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #dadada;
 }
 
 .contenuto-colonne h3{
@@ -182,9 +211,12 @@ header ul li a{
     padding: 30px 0px;
 }
 .plan-details li{
-    padding: 10px 0px;
+    padding: 10px 0px 10px 20px;
 }
-
+.plan-details li span{
+    margin-left: -20px;
+    padding-right: 5px;
+}
 
 .buy-now{
     padding: 40px 0px;
@@ -195,6 +227,7 @@ header ul li a{
 }
 .contenuto-colonne hr{
     width: 50px;
+    background-color: #dadada;
 }
 .list2{
     padding: 30px 0px;
@@ -262,9 +295,15 @@ header ul li a{
     padding-right: 30px;
 }
 .find-a-partner-column-content button{
+    border-style: none;
     padding: 5px 20px;
     background-color: white;
     text-decoration: none;
+    border: 1px solid rgb(156, 156, 156);
+    transition: all .2s linear;
+}
+.find-a-partner-column-content button:hover{
+    box-shadow: 1px 5px 10px rgba(39, 39, 39, 0.37);
 }
 .find-a-partner-column-content a{
     text-decoration: none;
@@ -275,7 +314,8 @@ header ul li a{
     padding-bottom: 100px;
 }
 .dropbox-business-service h2{
-    padding: 40px 0px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 .column-container-dropbusiness img{
     width: 100%;
@@ -288,8 +328,10 @@ header ul li a{
 }
 .column-container-dropbusiness{
     padding: 0px 20px;
-    margin: 0px 20px;
-    
+    margin: 0px 20px;   
+}
+.dropbox-business-service .contenuto-colonne .col_3-9{
+    padding-top: 50px;
 }
 .teams{
     width: 100%;    
@@ -360,7 +402,7 @@ header ul li a{
 
 
 .free-trial-section{
-    padding: 100px 0px;
+    padding: 150px 0px;
 }
 .free-trial-section h2{
     padding-right: 20%;
@@ -371,8 +413,12 @@ header ul li a{
     background-color: white;
     color: black;
     padding:5px 70px;
-    text-decoration: none;
-    
+    text-decoration: none;  
+    transition: all .2s linear; 
+}
+.free-trial-section .col_3-9 .free-trial-button:hover{
+    box-shadow: 1px 5px 10px rgba(39, 39, 39, 0.37);
+
 }
 .free-trial-section .col_3-9{
     padding-top: 20px;
@@ -393,18 +439,43 @@ header ul li a{
     display: inline-block;
     padding: 20px 0px;
     border-top: 1px solid grey;
-    width: 90%;
+    width: 100%;
+    position: relative;
 }
-.FAQ-section div p{
-    display: none;
-}
-.FAQ-section div:last-child{
+.FAQ-section .accordion-container:last-child{
     border-bottom: 1px solid grey;
 }
 .FAQ-section div span{
     display: inline-block;
-    width: 10%;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    transform: rotate(90deg);
+    transition: all .3s;
 }
+.accordion-content{
+    padding-right: 20%;
+    padding-top: 10px;
+    height: 0px;
+    overflow: hidden;
+    transition: all .3s;
+}
+.accordion-container:hover{
+    background-color: rgb(240, 240, 240);
+}
+.accordion-container{
+    transition: all .2s linear;
+}
+.accordion-container:focus .accordion-content{
+    height: 200px;
+    overflow: auto;
+} 
+.accordion-container:focus h4 span{
+    transform: rotate(0deg);
+    
+} 
+
+
 
 
 .footer-container{
@@ -446,3 +517,9 @@ footer .language{
     border-top: 1px solid white;
     width: 10%;
 }
+
+
+
+
+
+

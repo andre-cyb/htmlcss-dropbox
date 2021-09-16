@@ -23,7 +23,6 @@
                 <li><a href="">Perché Dropbox</a></li>
                 <li><a href="">Funzioni</a></li>
                 <li><a href="">Piani e Prezzi</a></li>
-                
             </ul>
         </div>
         <div class="div-dx">
@@ -35,7 +34,6 @@
                 
             </ul>
         </div>
-
     </header> 
 
 
@@ -46,13 +44,16 @@
                 <h1>Tutto ciò che ti serve per il lavoro,<br> in un unico posto</h1>
                 <div class="clearfix">
                     <div class="col_3-9">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, nostrum magni culpa provident
-                             ipsum nulla commodi quaerat at consequuntur unde asperiores explicabo, fuga amet maiores! Eligendi
-                              dolorum maxime quia nemo.
+                        <p class="p-hero">Finalmente tutti i tuoi strumenti, contenuti 
+                            e collaboratori sono accessibili dallo stesso posto. Dropbox 
+                            Business è più di uno spazio di archiviazione sicuro: è un modo 
+                            intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
                         <div><a class="button" href="">Inizia la tua prova gratuita</a></div>
                         <div>Annulla in qualsiasi momento</div>
-
+                        <div class="container-animation">
+                            <span><i class="fas fa-arrow-down"></i></span>
+                        </div>
                     </div>
                     <div class="col_6-9">
                         <img src="img/jumbo.png" alt="">
@@ -64,8 +65,8 @@
             <section class="small-container clearfix">
                 <h2>Trova il piano Dropbox Business che fa per te</h2>
                 <div class="invoice-option">
-                    <span><input class="radio-input" type="radio">Fatturazione mensile</span>
-                    <span><input class="radio-input"type="radio">Fatturazione annuale</span>
+                    <span><input class="radio-input" type="radio" name="radio1">Fatturazione mensile</span>
+                    <span><input class="radio-input" type="radio" name="radio1">Fatturazione annuale</span>
                 </div>
 
 
@@ -249,20 +250,7 @@
                             </div>
                             <div class="col_3-9">
                                 <div class="column-container-dropbusiness" >
-                                    <img src="img/business-feature-send-files-it.png" alt="">
-                                    <h3>Passa di meno da uno strumento all'altro</h3>
-                                    <p>Porta a termine le attività quitidiane con un 
-                                        solo strumento. Crea, modifica e condividi 
-                                        contenuti cloud da Documenti, Fogli e Presentazioni
-                                        di Google, file Microsoft Office e Dropbox Paper 
-                                        direttamente da Dropbox.
-                                    </p>
-                                </div>
-                                
-                            </div>
-                            <div class="col_3-9">
-                                <div class="column-container-dropbusiness" >
-                                    <img src="img/business-feature-security.png" alt="">
+                                    <img src="img/business-feature-coordinate-it.png" alt="">
                                     <h3>Passa di meno da uno strumento all'altro</h3>
                                     <p>Porta a termine le attività quitidiane con un 
                                         solo strumento. Crea, modifica e condividi 
@@ -301,7 +289,20 @@
                             </div>
                             <div class="col_3-9">
                                 <div class="column-container-dropbusiness" >
-                                    <img src="img/business-feature-coordinate-it.png" alt="">
+                                    <img src="img/business-feature-send-files-it.png" alt="">
+                                    <h3>Passa di meno da uno strumento all'altro</h3>
+                                    <p>Porta a termine le attività quitidiane con un 
+                                        solo strumento. Crea, modifica e condividi 
+                                        contenuti cloud da Documenti, Fogli e Presentazioni
+                                        di Google, file Microsoft Office e Dropbox Paper 
+                                        direttamente da Dropbox.
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <div class="col_3-9">
+                                <div class="column-container-dropbusiness" >
+                                    <img src="img/business-feature-security.png" alt="">
                                     <h3>Passa di meno da uno strumento all'altro</h3>
                                     <p>Porta a termine le attività quitidiane con un 
                                         solo strumento. Crea, modifica e condividi 
@@ -366,42 +367,70 @@
             </div>
             <div class="small-container FAQ-section">
                 <h3>Domande Frequenti</h3>
-                <div>
-                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?</h4>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab tempore? Sit voluptate blanditiis nulla, saepe mollitia voluptatum quaerat natus ut? Nesciunt in corporis nam maiores dolorum ipsam odit laborum!
-                        Rem aperiam eligendi sit quisquam, atque iusto possimus? Quae deserunt ipsam iste, amet eum repudiandae maxime adipisci repellat fugiat impedit doloremque odio incidunt debitis, id ab similique aliquam quidem ratione!
-                        Expedita nesciunt, ad nobis maiores, sapiente officiis, porro veritatis error commodi tenetur inventore eaque ex fugit quia alias id? Mollitia, consectetur itaque similique ipsam perspiciatis labore! Sint alias dolorum aut?
-                        Minus aspernatur saepe similique dolor eius asperiores fugiat quibusdam minima neque. Nihil eos reiciendis laudantium alias id, hic reprehenderit quasi aperiam labore iste ullam. Officiis, voluptates ipsum! Optio, odit quisquam!
-                        Quod, consectetur. Recusandae tenetur quas praesentium iste? Accusamus, atque esse suscipit recusandae officiis, quaerat nobis, totam expedita delectus pariatur fugit natus facere aut debitis laboriosam repudiandae earum quisquam accusantium! Aperiam?
-                    </p>
-                    <span><i class="fas fa-chevron-down"></i></span>
+                <div class="accordion-container" tabindex="0">
+                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </h4>
+
+                    <div class="accordion-content">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Excepturi, ab tempore? Sit voluptate blanditiis nulla, saepe 
+                            mollitia voluptatum quaerat natus ut? Nesciunt in corporis 
+                            nam maiores dolorum ipsam odit laborum!
+                            Rem aperiam eligendi sit quisquam, atque iusto possimus? Quae 
+                            deserunt ipsam iste, amet eum repudiandae maxime adipisci 
+                            repellat fugiat impedit doloremque odio incidunt debitis, 
+                            id ab similique aliquam quidem ratione!
+                            Expedita nesciunt, ad nobis maiores, sapiente
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?</h4>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab tempore? Sit voluptate blanditiis nulla, saepe mollitia voluptatum quaerat natus ut? Nesciunt in corporis nam maiores dolorum ipsam odit laborum!
-                        Rem aperiam eligendi sit quisquam, atque iusto possimus? Quae deserunt ipsam iste, amet eum repudiandae maxime adipisci repellat fugiat impedit doloremque odio incidunt debitis, id ab similique aliquam quidem ratione!
-                        Expedita nesciunt, ad nobis maiores, sapiente officiis, porro veritatis error commodi tenetur inventore eaque ex fugit quia alias id? Mollitia, consectetur itaque similique ipsam perspiciatis labore! Sint alias dolorum aut?
-                        Minus aspernatur saepe similique dolor eius asperiores fugiat quibusdam minima neque. Nihil eos reiciendis laudantium alias id, hic reprehenderit quasi aperiam labore iste ullam. Officiis, voluptates ipsum! Optio, odit quisquam!
-                        Quod, consectetur. Recusandae tenetur quas praesentium iste? Accusamus, atque esse suscipit recusandae officiis, quaerat nobis, totam expedita delectus pariatur fugit natus facere aut debitis laboriosam repudiandae earum quisquam accusantium! Aperiam?
-                    </p>
+                <div class="accordion-container" tabindex="0">
+                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </h4>
+
+                    <div class="accordion-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Dolores laborum, eveniet consequatur magni veritatis illum 
+                            delectus eos. Cum, quas debitis id consequuntur et officiis,
+                            laborum sed alias, nobis ipsum fugit?
+                            Reprehenderit optio ullam blanditiis quisquam architecto eligendi 
+                            accusamus. Cum error quos, provident in quia consequuntur, ipsam quis 
+                            quod, fugit laboriosam aperiam autem sunt vitae soluta neque. Dolores, 
+                            velit! Laudantium, sequi!
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?</h4>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab tempore? Sit voluptate blanditiis nulla, saepe mollitia voluptatum quaerat natus ut? Nesciunt in corporis nam maiores dolorum ipsam odit laborum!
-                        Rem aperiam eligendi sit quisquam, atque iusto possimus? Quae deserunt ipsam iste, amet eum repudiandae maxime adipisci repellat fugiat impedit doloremque odio incidunt debitis, id ab similique aliquam quidem ratione!
-                        Expedita nesciunt, ad nobis maiores, sapiente officiis, porro veritatis error commodi tenetur inventore eaque ex fugit quia alias id? Mollitia, consectetur itaque similique ipsam perspiciatis labore! Sint alias dolorum aut?
-                        Minus aspernatur saepe similique dolor eius asperiores fugiat quibusdam minima neque. Nihil eos reiciendis laudantium alias id, hic reprehenderit quasi aperiam labore iste ullam. Officiis, voluptates ipsum! Optio, odit quisquam!
-                        Quod, consectetur. Recusandae tenetur quas praesentium iste? Accusamus, atque esse suscipit recusandae officiis, quaerat nobis, totam expedita delectus pariatur fugit natus facere aut debitis laboriosam repudiandae earum quisquam accusantium! Aperiam?
-                    </p>
+                <div class="accordion-container" tabindex="0">
+                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </h4>
+
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est rerum, 
+                            provident accusantium impedit modi aspernatur quis dignissimos voluptatibus 
+                            exercitationem debitis ratione sint alias mollitia! Optio in eaque doloremque provident.
+                            Sequi vero modi at itaque nulla cumque sunt, cupiditate nobis sapiente officia 
+                            libero tempora natus perspiciatis perferendis voluptatibus ipsam sint commodi 
+                            facere. Voluptatum reprehenderit deserunt, fugiat vero velit ab! Possimus.
+                            Itaque possimus consectetur placeat labore hic deserunt reiciendis ut fugiat 
+                            ab nam eaque, quod eligendi, tempora provident iste assumenda ducimus doloremque 
+                            blanditiis, similique praesentium explicabo? Ut eum non quod aut!
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?</h4>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ab tempore? Sit voluptate blanditiis nulla, saepe mollitia voluptatum quaerat natus ut? Nesciunt in corporis nam maiores dolorum ipsam odit laborum!
-                        Rem aperiam eligendi sit quisquam, atque iusto possimus? Quae deserunt ipsam iste, amet eum repudiandae maxime adipisci repellat fugiat impedit doloremque odio incidunt debitis, id ab similique aliquam quidem ratione!
-                        Expedita nesciunt, ad nobis maiores, sapiente officiis, porro veritatis error commodi tenetur inventore eaque ex fugit quia alias id? Mollitia, consectetur itaque similique ipsam perspiciatis labore! Sint alias dolorum aut?
-                        Minus aspernatur saepe similique dolor eius asperiores fugiat quibusdam minima neque. Nihil eos reiciendis laudantium alias id, hic reprehenderit quasi aperiam labore iste ullam. Officiis, voluptates ipsum! Optio, odit quisquam!
-                        Quod, consectetur. Recusandae tenetur quas praesentium iste? Accusamus, atque esse suscipit recusandae officiis, quaerat nobis, totam expedita delectus pariatur fugit natus facere aut debitis laboriosam repudiandae earum quisquam accusantium! Aperiam?
-                    </p>
+                <div class="accordion-container" tabindex="0">
+                    <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business advanced?
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </h4>
+
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit id, nulla 
+                            facere quae ab consequuntur magnam. Corrupti explicabo, consectetur obcaecati 
+                            quos non rerum vero, necessitatibus voluptatem impedit ea magni tempore.
+                        </p>
+                    </div>
                 </div>
 
             </div>
